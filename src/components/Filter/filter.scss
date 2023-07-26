@@ -1,0 +1,18 @@
+.filter {
+    margin: 20px 0;
+    .filter__wrapper {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .filter__select {
+            color: black;
+            width: 200px;
+        }
+    }
+}
